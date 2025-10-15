@@ -1,0 +1,84 @@
+body{
+    background: black;
+}
+.glav-piramid{
+display: flex;
+    justify-content: center;
+flex-direction: column;
+    align-items: center;
+}
+.glav-blok-2{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+
+}
+.glav-blok-4{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+
+}
+.div1-b-1 {
+    background: #900e0e;
+    width: 100px;
+    height: 100px;    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.div2-b-1 {
+    background: rgba(14, 52, 28, 0.99);
+    width: 100px;
+    height: 100px;    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+.div3-b-1 {
+    background: rgba(14, 32, 52, 0.99);
+    width: 100px;
+    height: 100px;    align-items: center;
+    display: flex;
+    justify-content: center
+}
+.div4-b-1 {
+    background: rgba(102, 51, 115, 0.99);
+    width: 100px;
+    height: 100px;    align-items: center;
+    display: flex;
+    justify-content: center
+}.div4-b-2 {
+    background: #c7c726;
+    width: 100px;
+    height: 100px;    align-items: center;
+    display: flex;
+    justify-content: center
+}.div4-b-3 {
+    background: rgba(177, 40, 56, 0.99);
+    width: 100px;
+    height: 100px;    align-items: center;
+    display: flex;
+    justify-content: center
+}
+
+.blok-1 {
+    color: aliceblue;
+    font-size: 32px;
+    display: flex;
+    justify-content: center
+}
+.blok-2 {
+    color: aliceblue;
+    font-size: 32px;
+    display: flex;
+    justify-content: center
+}
+.blok-3 {
+    color: aliceblue;
+    font-size: 32px;
+
+}
+
+
+
