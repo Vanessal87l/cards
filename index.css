@@ -1,84 +1,33 @@
-body{
-    background: black;
+.container{
+    width: 100%;
+    background: #bbb0c3;
 }
-.glav-piramid{
-display: flex;
-    justify-content: center;
-flex-direction: column;
-    align-items: center;
-}
-.glav-blok-2{
+.div-glav{
     display: flex;
-    justify-content: center;
-    flex-direction: row;
+    gap: 20px;
 
 }
-.glav-blok-4{
-    display: flex;
-    justify-content: center;
-    flex-direction: row;
-
+@media(min-width: 1024px) {
+    .container{
+        background: #0b1a40;
+        font-size: 50px;
+    }
+    .div-glav{
+        flex-direction: row;
+    }
 }
-.div1-b-1 {
-    background: #900e0e;
-    width: 100px;
-    height: 100px;    align-items: center;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
+@media(min-width: 600px) and (max-width: 1023px){
+ .container{
+ background: #afaf0e;
+     font-size: 25px;
+ }
 }
-.div2-b-1 {
-    background: rgba(14, 52, 28, 0.99);
-    width: 100px;
-    height: 100px;    align-items: center;
-    display: flex;
-    justify-content: center;
-    flex-direction: row;
+@media(max-width: 599px){
+    .container{
+        background: #1e5938;
+        font-size: 15px;
+    }
+    .div-glav{
+        flex-direction: column;
+    }
 }
-.div3-b-1 {
-    background: rgba(14, 32, 52, 0.99);
-    width: 100px;
-    height: 100px;    align-items: center;
-    display: flex;
-    justify-content: center
-}
-.div4-b-1 {
-    background: rgba(102, 51, 115, 0.99);
-    width: 100px;
-    height: 100px;    align-items: center;
-    display: flex;
-    justify-content: center
-}.div4-b-2 {
-    background: #c7c726;
-    width: 100px;
-    height: 100px;    align-items: center;
-    display: flex;
-    justify-content: center
-}.div4-b-3 {
-    background: rgba(177, 40, 56, 0.99);
-    width: 100px;
-    height: 100px;    align-items: center;
-    display: flex;
-    justify-content: center
-}
-
-.blok-1 {
-    color: aliceblue;
-    font-size: 32px;
-    display: flex;
-    justify-content: center
-}
-.blok-2 {
-    color: aliceblue;
-    font-size: 32px;
-    display: flex;
-    justify-content: center
-}
-.blok-3 {
-    color: aliceblue;
-    font-size: 32px;
-
-}
-
-
-
