@@ -1,0 +1,110 @@
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+body {
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    font-size: 20px;
+    display: grid;
+    gap: 10px;
+    grid-template-areas:
+    "header header header"
+    "menu main ad1"
+    "ad2 main ad1"
+    "footer footer footer";
+    grid-template-columns: 1fr 2fr 1fr;
+    background-color: #c83535;
+    padding: 10px;
+    width: 80%;
+    max-width: 604px;
+    min-height: 400px;
+
+}
+
+header {
+    grid-area: header;
+    background-color: #183895;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80px;
+}
+nav {
+    grid-area: menu;
+    background-color: #455aaf;
+    color: white;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 220px;
+}
+main {
+    grid-area: main;
+    background-color: #455aaf;
+    color: white;
+    font-weight: bold;
+    display: flex;
+    height: 330px;
+    align-items: center;
+    justify-content: center;
+}
+@media (max-width: 1024px) {
+    .container {
+        grid-template-areas:
+      "header"
+      "menu"
+      "main"
+      "ad1"
+      "ad2"
+      "footer";
+        grid-template-columns: 1fr;
+    }
+}
+
+.ad1 {
+    grid-area: ad1;
+    background-color:  #455aaf;
+    color: white;
+    font-weight: bold;
+    display: flex;
+    height: 330px;
+    align-items: center;
+    justify-content: center;
+}
+
+.ad2 {
+    grid-area: ad2;
+    background-color:#455aaf ;
+    color: white;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    height: 100px;
+    justify-content: center;
+}
+
+footer {
+    grid-area: footer;
+    background-color: #183895;
+    color: white;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    height: 80px;
+    justify-content: center;
+}
